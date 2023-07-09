@@ -129,8 +129,8 @@ function Library:Window(options)
     Body.AnchorPoint = Vector2.new(0.5, 0.5)
     Body.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
     Body.BorderSizePixel = 0
-    Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
-    Body.Size = UDim2.new({0, 686},{0, 454})  
+    Body.Position = UDim2.new(0.5, 0,0.5, 0)
+    Body.Size = UDim2.new(0, 686,0, 454)  
 
     bodyCorner.CornerRadius = UDim.new(0, 4)
     bodyCorner.Name = "bodyCorner"
@@ -141,7 +141,7 @@ function Library:Window(options)
     SideBar.BackgroundColor3 = Color3.fromRGB(36, 40, 46)
     SideBar.BackgroundTransparency = 0.2
     SideBar.BorderSizePixel = 0
-    SideBar.Size = UDim2.new({0, 158},{0, 454})
+    SideBar.Size = UDim2.new(0, 158,0, 454)
 
     sidebarCorner.CornerRadius = UDim.new(0, 4)
     sidebarCorner.Name = "sidebarCorner"
@@ -161,7 +161,7 @@ function Library:Window(options)
     TopBar.BorderColor3 = Color3.fromRGB(14, 21, 32)
     TopBar.BorderSizePixel = 0
     TopBar.Position = UDim2.new(0.25166446, 0, 0, 0)
-    TopBar.Size = UDim2.new({0, 686},{0, 60})
+    TopBar.Size = UDim2.new(0, 686,0, 60)
 
     tbLine.Name = "tbLine"
     tbLine.Parent = TopBar
